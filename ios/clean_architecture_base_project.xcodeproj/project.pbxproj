@@ -38,6 +38,7 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = clean_architecture_base_project/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-clean_architecture_base_project-clean_architecture_base_projectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-clean_architecture_base_project-clean_architecture_base_projectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-clean_architecture_base_project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clean_architecture_base_project.debug.xcconfig"; path = "Target Support Files/Pods-clean_architecture_base_project/Pods-clean_architecture_base_project.debug.xcconfig"; sourceTree = "<group>"; };
+		3D20A1CB2B3D2A59000DC9D4 /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Ionicons.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-clean_architecture_base_project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clean_architecture_base_project.release.xcconfig"; path = "Target Support Files/Pods-clean_architecture_base_project/Pods-clean_architecture_base_project.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-clean_architecture_base_project-clean_architecture_base_projectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clean_architecture_base_project-clean_architecture_base_projectTests.debug.xcconfig"; path = "Target Support Files/Pods-clean_architecture_base_project-clean_architecture_base_projectTests/Pods-clean_architecture_base_project-clean_architecture_base_projectTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-clean_architecture_base_project.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-clean_architecture_base_project.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -106,6 +107,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3D20A1CA2B3D2A1C000DC9D4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3D20A1CB2B3D2A59000DC9D4 /* Ionicons.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +125,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				3D20A1CA2B3D2A1C000DC9D4 /* Fonts */,
 				13B07FAE1A68108700A75B9A /* clean_architecture_base_project */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* clean_architecture_base_projectTests */,
