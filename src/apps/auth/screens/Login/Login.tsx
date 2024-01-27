@@ -1,27 +1,21 @@
 import {View, Text, TouchableOpacity} from 'react-native';
 import React from 'react';
 import {useNavigation} from '@react-navigation/native';
-import { useDispatch } from 'react-redux';
-import { globalActions } from '@src/store/actions';
-import { AuthScreens } from '@src/apps/auth/domain/navigation';
+import {useDispatch} from 'react-redux';
+import {globalActions} from '@src/store/actions';
+import {AuthScreens} from '@src/apps/auth/domain/navigation';
 
 const Login: React.FC = () => {
   const navigation = useNavigation();
-  const dispatch = useDispatch()
+  const dispatch = useDispatch();
 
   const handleLogin = async (): Promise<void> => {
-    await globalActions.login(dispatch)
+    await globalActions.login(dispatch);
     navigation.navigate(AuthScreens.Register as never);
   };
 
   return (
-    <View
-      style={{
-        flex: 1,
-        backgroundColor: 'red',
-        justifyContent: 'center',
-        alignItems: 'center',
-      }}>
+    <View className="bg-purple-600 flex-1 items-center justify-center">
       <TouchableOpacity
         activeOpacity={0.8}
         style={{
@@ -34,12 +28,7 @@ const Login: React.FC = () => {
           elevation: 10,
         }}
         onPress={handleLogin}>
-        <Text
-          style={{
-            color: '#000000',
-          }}>
-          Login
-        </Text>
+        <Text className="text-2xl text-gray-500">Tailwind</Text>
       </TouchableOpacity>
       {/* <Loading/> */}
     </View>
